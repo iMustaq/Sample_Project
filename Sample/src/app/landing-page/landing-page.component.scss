@@ -1,0 +1,23 @@
+*{
+  color: whitesmoke;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h1{
+  font-size: 3em;
+}
+
+.btn{
+  margin-top: 5rem;
+  height: 3rem;
+  width: 10%;
+  font-size: 2em;
+  font-weight: 500;
+  border-radius: .3rem;
+  background-color: rgb(253, 56, 56);
+}

@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+form {
+  margin: 4rem;
+  padding: 10%;
+  border: 5px solid orange;
+  border-radius: 2rem;
+}
+.text-box {
+  background-color: whitesmoke;
+  width: 18rem;
+  height: 3rem;
+  font-size: 1.4em;
+  color: green;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  margin-left: 2rem;
+}
+
+.b-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+label {
+  font-size: 2em;
+  color: rgb(60, 197, 151);
+  font-weight: 500;
+}
+
+.btn {
+  margin-top: 5rem;
+  font-size: 2em;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  background-color: rgb(238, 93, 93);
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <form [formGroup]="myForm">
+    <div class="b-div">
+      <label for="email">Email</label>
+      <input class="text-box" type="email" formControlName="email">
+    </div>
+    <div class="b-div">
+      <label for="pass">Password</label>
+      <input class="text-box" type="password" formControlName="pass">
+    </div>
+    <div class="btn-div">
+      <button class="btn" (click)="submit()">Submit</button>
+    </div>
+  </form>
+</div>
