@@ -39,18 +39,6 @@ const s3BucketProperties = {
     "default": envs.S3BUCKET_AWSS3BUCKET,
     "env": envs.S3BUCKET_AWSS3BUCKET_ENV,
     "arg": envs.S3BUCKET_AWSS3BUCKET_ARG
-  },
-  "awsS3URL": {
-    "doc": envs.S3BUCKET_AWSS3URL_DOC,
-    "default": envs.S3BUCKET_AWSS3URL,
-    "env": envs.S3BUCKET_AWSS3URL_ENV,
-    "arg": envs.S3BUCKET_AWSS3URL_ARG
-  },
-  "awsS3Expirytime": {
-    "doc": envs.S3BUCKET_AWSS3EXPIRYTIME_DOC,
-    "default": envs.S3BUCKET_AWSS3EXPIRYTIME,
-    "env": envs.S3BUCKET_AWSS3EXPIRYTIME_ENV,
-    "arg": envs.S3BUCKET_AWSS3EXPIRYTIME_ARG
   }
 }
 
